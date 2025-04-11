@@ -1,4 +1,5 @@
 package com.arakelan.springcourse.model;
+
 import jakarta.persistence.*;
 
 
@@ -21,7 +22,6 @@ public class User {
 
     @Column(name = "email")
     private String email;
-
 
 
     public long getId() {

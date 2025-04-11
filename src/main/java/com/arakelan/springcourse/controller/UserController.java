@@ -2,6 +2,7 @@ package com.arakelan.springcourse.controller;
 
 import com.arakelan.springcourse.model.User;
 import com.arakelan.springcourse.service.UserService;
+import com.arakelan.springcourse.service.UserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
